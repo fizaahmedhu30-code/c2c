@@ -1,0 +1,120 @@
+<comment class='preserveHtml' class='preserveHtml'> Card header </comment>
+<div class='preserveHtml' class="card-header">
+  <div class='preserveHtml' class="card-header-top">
+    <div class='preserveHtml' class='preserveHtml'>
+      <h2 class='preserveHtml' class='preserveHtml'>Secure Checkout</h2>
+      <p class='preserveHtml' class='preserveHtml'>Pay by card · Receive USDC instantly</p>
+    </div>
+    <div class='preserveHtml' class="secure-chip">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      SSL Secured
+    </div>
+  </div>
+  <div class='preserveHtml' class="payment-methods">
+    <div class='preserveHtml' class="pm-pill"><span class="pm-icon">💳</span> Visa</div>
+    <div class='preserveHtml' class="pm-pill"><span class="pm-icon">💳</span> Mastercard</div>
+    <div class='preserveHtml' class="pm-pill"><span class="pm-icon"></span> Apple Pay</div>
+    <div class='preserveHtml' class="pm-pill"><span class="pm-icon">G</span> Google Pay</div>
+    <div class='preserveHtml' class="pm-pill"><span class="pm-icon">🏦</span> Bank Transfer</div>
+  </div>
+</div>
+﻿
+
+<comment class='preserveHtml' class='preserveHtml'> Card body </comment>
+<div class='preserveHtml' class="card-body">
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Amount display </comment>
+  <div class='preserveHtml' class="amount-display">
+    <div class='preserveHtml' class="amount-display-left">
+      <div class='preserveHtml' class="amount-display-label">You Pay</div>
+      <div class='preserveHtml' class="amount-input-row">
+        <span class="amount-currency">$</span>
+        <input
+          class="amount-input"
+          type="number"
+          id="amount"
+          placeholder="0.00"
+          min="1"
+          step="0.01"
+          required
+        />
+      </div>
+    </div>
+    <div class='preserveHtml' class="amount-display-right">
+      <div class='preserveHtml' class="usdc-badge">USDC</div>
+      <div class='preserveHtml' class="instant-badge">⚡ Instant payout</div>
+    </div>
+  </div>
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Fields </comment>
+  <div class='preserveHtml' class="fields">
+﻿
+
+    <div class='preserveHtml' class="field-group">
+      <label class="field-label" for="email">Email Address</label>
+      <div class='preserveHtml' class="field-input-wrap">
+        <span class="field-icon">✉️</span>
+        <input class="field-input" type="email" id="email" placeholder="you@example.com" autocomplete="email" required />
+      </div>
+    </div>
+﻿
+
+    <div class='preserveHtml' class="field-group">
+      <label class="field-label" for="wallet">USDC Payout Wallet (Polygon)</label>
+      <div class='preserveHtml' class="field-input-wrap">
+        <span class="field-icon">🔑</span>
+        <input class="field-input" type="text" id="wallet" placeholder="0xYourPolygonWalletAddress" autocomplete="off" spellcheck="false" required />
+      </div>
+      <div class='preserveHtml' class="field-hint">Funds will be sent to this Polygon USDC address</div>
+    </div>
+﻿
+
+  </div>
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Divider </comment>
+  <div class='preserveHtml' class="divider">
+    <div class='preserveHtml' class="divider-line"></div>
+    <div class='preserveHtml' class="divider-text">Processed by MoonPay · No KYC required</div>
+    <div class='preserveHtml' class="divider-line"></div>
+  </div>
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Pay button </comment>
+  <button class="btn-pay" id="payBtn" type="button">
+    <div class='preserveHtml' class="spinner" id="spinner"></div>
+    <span class="btn-arrow" id="btnText">Pay Now →</span>
+  </button>
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Error </comment>
+  <div class='preserveHtml' class="error-box" id="errorBox">
+    <span>⚠️</span>
+    <span id="errorMsg">Something went wrong. Please try again.</span>
+  </div>
+﻿
+
+  <comment class='preserveHtml' class='preserveHtml'> Trust row </comment>
+  <div class='preserveHtml' class="trust-row">
+    <div class='preserveHtml' class="trust-item"><span class="t-icon">🔒</span> 256-bit encryption</div>
+    <div class='preserveHtml' class="trust-item"><span class="t-icon">⚡</span> Instant settlement</div>
+    <div class='preserveHtml' class="trust-item"><span class="t-icon">🛡️</span> Chargeback protection</div>
+  </div>
+﻿
+
+</div>
+﻿
+
+<comment class='preserveHtml' class='preserveHtml'> Card footer </comment>
+<div class='preserveHtml' class="card-footer">
+  <div class='preserveHtml' class="footer-powered">
+    Powered by <a class='preserveHtml' href="https://card2crypto.org" target="_blank" rel="noopener">Card2Crypto.org</a>
+  </div>
+  <div class='preserveHtml' class="footer-providers">
+    <div class='preserveHtml' class="fp-chip">MoonPay</div>
+    <div class='preserveHtml' class="fp-chip">Stripe</div>
+    <div class='preserveHtml' class="fp-chip">TransFi</div>
+  </div>
+</div>
